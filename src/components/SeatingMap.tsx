@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
   DndContext,
-  DragEndEvent,
+  type DragEndEvent,
   DragOverlay,
-  DragStartEvent,
+  type DragStartEvent,
   PointerSensor,
   useDraggable,
   useDroppable,
